@@ -1,0 +1,194 @@
+*
+{
+    box-sizing: border-box;
+    
+}
+
+html 
+{
+    background-image: url(../Image/ValoFade.gif);
+    background-size: cover;
+
+}
+
+h1
+{
+    
+    font-family: 'Meow Script', cursive;
+    
+    color: whitesmoke;
+    animation: animate 3s linear infinite;
+    
+} 
+@keyframes animate
+{
+    0%, 18%, 22%, 25%, 53%, 57%, 100% 
+    {
+        
+        text-shadow: 0 0 10px #508ef0,
+        0 0 20px,
+        0 0 40px,
+        0 0 80px;
+        
+    }
+
+    20%, 24%, 55%
+    {
+        text-shadow: 0 0 10px #508ef0;
+    }
+
+   
+
+}
+
+
+body
+{
+    backdrop-filter: blur(8px);
+    width: 100dvw;
+    height: 100dvh;
+    overflow: hidden;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    font-size: 15pt;
+    padding-right: 40%;
+    flex-direction: column;
+    gap: 25px;
+
+    
+    
+}
+
+section
+{
+    
+    width: 450px;
+    border-radius: 0px;
+    background: radial-gradient(#161616,#000000);
+    background-position: center;
+    padding: 15px;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 120px;
+    border-style: solid;
+    border-radius: 0cm;
+    transition: background 0.1s linear;
+    will-change: auto;
+    
+
+}
+
+
+h2
+{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    text-shadow: 0 0 10px white;
+    color:#6b103a;
+    animation: animation 5s linear infinite;
+    
+}
+
+.item
+{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.brand-icon
+{
+    height: 80%;
+ aspect-ratio: 1;
+ fill: gray;
+   
+}
+
+a
+{
+ text-decoration: none;
+ 
+}
+
+.text{
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0px  0px 20px black;
+    color: #6c0729 ;
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+
+/*section:has(.item#discord:hover)
+{
+    background-image: url(../Image/discord-logo.svg),radial-gradient(#161616,#000000);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #0d0f14;
+    
+}
+
+section:has(.item#spotify:hover)
+{
+    background-image: url(../Image/Spotify_logo_without_text.svg),radial-gradient(#161616,#000000);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    
+}
+
+section:has(.item#steam:hover)
+{
+    background: rgba(0,0,0,0.8) url(../Image/Steam_icon_logo.svg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+
+}
+
+section:has(.item#osu:hover)
+{
+    background-image: url(../Image/Osu!_Logo_2016.svg),radial-gradient(#161616,#000000);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #0a0509;
+    
+}
+
+section:has(.item#cod:hover)
+{
+    background-image: url(../Image/test.svg),radial-gradient(#161616,#000000);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #151516;
+    
+}
+
+section:has(.item#lol:hover)
+{
+    background-image: url(../Image/LoL_icon.svg),radial-gradient(#161616,#000000);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #060703;
+    
+}
+
+section:has(.item#valo:hover)
+{
+    background-image: url(../Image/valorant-logo-play-2-svgrepo-com.svg),radial-gradient(#161616,#000000);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #080303;
+    
+}*/
